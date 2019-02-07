@@ -20,9 +20,9 @@ __*oc = ( ic + shift ) & 0xff*__
 
 #### 3. Part III: Break Shift Cipher of flag
 1. Given a encoded flag that has been shifted, use the decoder written in part II to decipher it.  
-2. Since key can be from 0-255, just run the decoder until the file becomes a PNG file using command line tool line.
+2. Since key can be from 0-255, just run the decoder until the file becomes a PNG recognisable file using command line tool "file" to check after each run.
 3. This I have done in 3 ways, using bash shell scripting in two different forms, ex3.sh, ex3v2.sh as well as writing a script in python3 using the Os library, to run shell commands.
-4. Pipe the output of the File command line tool to check for PNG, repeat the decoding by incrementing the key until Flag.png is decoded to a PNG format.
+4. Pipe the output of the File command line tool to check for PNG using GREP, repeat the decoding by incrementing the key until Flag.png is decoded to a PNG format.
 
 ### Check the LAB1REPORT.PDF for more information on how to run the codes.
 
