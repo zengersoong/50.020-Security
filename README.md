@@ -26,3 +26,8 @@ __*oc = ( ic + shift ) & 0xff*__
 
 ### Check the LAB1REPORT.PDF for more information on how to run the codes.
 
+## Lab 2 
+### Introduction to substitution ciphers
+Instructor(s): Professor Tang Zhaohui
+### 1. Decipher a substition ciphered text
+Write a python program or script to analyse the ciphered text. (E.g Frequency analysis) etc
