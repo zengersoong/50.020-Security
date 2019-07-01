@@ -84,10 +84,10 @@ attacker’s choice
 – Login as alice again.
 – Your XSS attack works if you (alice) are able to see a news item with admin’s cookie
 displayed!
-## 3. Persistent (Second-order) attack using XSS
-## 4. Reflected (First-order) attack using XSS
-## 5. Command Injection  
-## 6. Reverse Shell  
+### 3. Persistent (Second-order) attack using XSS
+### 4. Reflected (First-order) attack using XSS
+### 5. Command Injection  
+### 6. Reverse Shell  
 1. Get a local shell on the target server
 2. A "reverse shell" is a program started on the victim machine, that connects to the attacker
 (to pass through firewalls and similar).
